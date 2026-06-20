@@ -13,7 +13,7 @@ const dayNum = (key) => String(dFrom(key).getDate());
 const weekday = (key) => MN_WEEK[dFrom(key).getDay()];
 const longDate = (key) => {const d = dFrom(key);return `${MN_MONTHS[d.getMonth()]} ${d.getDate()}, ${MN_WEEK[d.getDay()]}`;};
 
-const SALES_API = 'http://localhost:3001/api';
+const SALES_API = '/api';
 
 const SalesCtx = React.createContext(null);
 

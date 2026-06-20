@@ -1,4 +1,4 @@
-const API = 'http://localhost:3001/api';
+const API = '/api';
 
 const DEFAULT_GROUPS = [
   { id: 'raw',    name: 'Түүхий эд' },
