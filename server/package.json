@@ -1,0 +1,16 @@
+{
+  "name": "coffee-shop-api",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "db:setup": "node setup-db.js"
+  },
+  "dependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
